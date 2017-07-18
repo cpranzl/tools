@@ -1,4 +1,6 @@
--related packages
+#!/bin/bash
+
+# GUI-related packages
 pkgs="
 xserver-xorg-video-fbdev
 xserver-xorg xinit
