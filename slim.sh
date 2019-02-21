@@ -54,3 +54,4 @@ echo apt-get -y autoremove
 
 # Remove all packages marked rc (thanks @symm)
 dpkg --list |grep "^rc" | cut -d " " -f 3 | xargs dpkg --purge
+

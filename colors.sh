@@ -1,3 +1,5 @@
+#!/bin/bash
+
 for x in {0..8}; do
 	for i in {30..37}; do
 		for a in {40..47}; do
@@ -7,3 +9,4 @@ for x in {0..8}; do
 	done
 done
 echo ""
+

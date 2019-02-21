@@ -7,3 +7,4 @@ cpuTempM=$(($cpuTemp2 % $cpuTemp1))
 
 echo CPU temp"="$cpuTemp1"."$cpuTempM"'C"
 echo GPU $(/opt/vc/bin/vcgencmd measure_temp)
+
